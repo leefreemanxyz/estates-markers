@@ -1,0 +1,108 @@
+
+#menuDiv {
+}
+.menuButton2 {
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border:2px solid #666;
+    border-radius: 5px;
+    height:18px;
+    background: #ccf;
+    color: #336;
+    width: 120px;
+    margin: 0 auto;
+    display:table;
+}
+.menuButton {
+    font-size: 1.3em;
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+    line-height: 1.8em;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb( 68, 71, 78 );
+    border-radius: 13px;
+    background-image: linear-gradient( 90deg, rgb(35,37,41) 0%, rgb(64,67,74) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(35,37,41) 0%, rgb(64,67,74) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(35,37,41) 0%, rgb(64,67,74) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(35,37,41) 0%, rgb(64,67,74) 100%);
+    min-width: 174px;
+    width: 22%;
+    padding: 0.2% 0 0.3% 0;
+    margin: 0 auto;
+    cursor:pointer;
+}
+.menuButton:focus {
+    background-image: linear-gradient( 90deg, rgb(200,34,34) 0%, rgb(225,88,88) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(200,34,34) 0%, rgb(225,88,88) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(200,34,34) 0%, rgb(225,88,88) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(200,34,34) 0%, rgb(225,88,88) 100%);
+}
+.goneAway {
+    transform: scale(0.1,0.1);
+    -ms-transform: scale(0.1,0.1); /* IE 9 */
+    -webkit-transform: scale(0.1,0.1); /* Safari and Chrome */
+    -moz-transform: scale(0.1,0.1); /* Safari and Chrome */
+    opacity:0;
+}
+.packDetails img {
+    height: 30px;
+    margin: 0 10px;
+    display:table-cell;
+    vertical-align:middle;
+}
+.packDetails {
+    font-size: 1.4em;
+    vertical-align:middle;
+}
+.object3D {
+    transform: perspective(2000);
+    -webkit-transform: perspective(2000);
+    -moz-transform: perspective(2000);
+    -ms-transform: perspective(2000);
+}
+.winMessage {
+    font-size:2em;
+    text-align:center;
+    vertical-align:middle;
+    padding: 5%;
+}
+body {
+    perspective: 4000;
+    -webkit-perspective: 4000;
+    -moz-perspective: 4000;
+    -ms-perspective: 4000;
+}
+.return2Menu {
+    background: url('menu.png') center center no-repeat;
+}
+
+/* DESIGN */
+
+.activity_instructions .button {
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb( 38, 36, 43 );
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb( 201, 220, 95 );
+    border-radius: 13px;
+    background-image: linear-gradient( 90deg, rgb(191,210,85) 0%, rgb(114,170,0) 100%);
+    background-image: -moz-linear-gradient( 90deg, rgb(191,210,85) 0%, rgb(114,170,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(114,170,0) 0%, rgb(191,210,85) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(191,210,85) 0%, rgb(114,170,0) 100%);
+    width: auto;
+}
+.instructions {
+    width: 75% !important;
+}
+.activity_instructions .button-container {
+    text-transform: uppercase;
+}
+
+._overlaydiv.packDetails {
+    color: rgb(50,50,50) !important;
+}
